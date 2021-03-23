@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-function create() {
+create() {
 	cd $HOME
 	python create.py $1
 	cd Development
